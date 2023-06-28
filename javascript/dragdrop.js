@@ -74,11 +74,16 @@ window.document.addEventListener('drop', e => {
     dropReplaceImage( imgWrap, files );
 });
 
+var global_input_file_name = '';
 window.addEventListener('paste', e => {
     const files = e.clipboardData.files;
     if ( ! isValidImageList( files ) ) {
         return;
     }
+
+    console.log("bali:" + files[0].name)
+    // 支持mask浏览器插件，用来快速生成mask图片
+    global_input_file_name = files[0].name.split('.')[0]
 
     const visibleImageFields = [...gradioApp().querySelectorAll('[data-testid="image"]')]
         .filter(el => uiElementIsVisible(el));
