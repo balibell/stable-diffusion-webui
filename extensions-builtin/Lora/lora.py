@@ -219,7 +219,10 @@ def load_loras(names, multipliers=None):
         if lora_on_disk is not None:
             if lora is None or os.path.getmtime(lora_on_disk.filename) > lora.mtime:
                 try:
-                    lora = load_lora(name, lora_on_disk.filename)
+                    print(f'balibell build-in lora_on_disk is:')
+                    print(lora_on_disk)
+                    print(f'filename {lora_on_disk.filename}\n')
+                    lora = load_lora(name, lora_on_disk)
                 except Exception as e:
                     errors.display(e, f"loading Lora {lora_on_disk.filename}")
                     continue
