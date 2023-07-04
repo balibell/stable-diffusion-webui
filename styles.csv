@@ -1,0 +1,10 @@
+﻿name,prompt,negative_prompt
+animegirl,"1girl, masterpiece, best quality, highres, original, extremely detailed wallpaper, perfect lighting, (extremely detailed CG)"(worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)),((big hands, un-detailed skin, semi-realistic, cgi, 3d, render, sketch, drawing)), ((ugly mouth, ugly eyes, missing teeth, crooked teeth, cropped, out of frame))"
+mq,"masterpiece, best quality, ",
+towel,"masterpiece, highest quality, a close up of a girl,  beautiful eyes, short hair, mid normal breasts, cleavage, wearing a white  topless and shoulderless and sleeveless bath towel, clear gaze","nipple, bra"
+soloman,"photo of a man, solo, highest quality, best quality, masterpiece, upper body, 8K, HD, smooth",
+nsfw,,"nsfw, watermark, signature, artist_name, bad_anatomy, bad_hands, unclear fingers, twisted hands, fused fingers, missing_arms"
+negquality,,"(worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)),((big hands, un-detailed skin, semi-realistic, cgi, 3d, render, sketch, drawing)), ((ugly mouth, ugly eyes, missing teeth, crooked teeth, cropped, out of frame))"
+sologirl,"beautiful woman, ((solo)),best quality, ultra high res, 8K, masterpiece, sharp focus,  clear gaze","(worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)),((big hands, un-detailed skin, semi-realistic, cgi, 3d, render, sketch, drawing)), ((ugly mouth, ugly eyes, missing teeth, crooked teeth, cropped, out of frame))"
+noanime,,"cartoon, anime, sketches, skin spots, acnes, skin blemishes, bad anatomy, girl, loli, young, large breasts, red eyes, muscular"
+light,"professional lighting, photon mapping,  radiosity, physically-based rendering, realistic, photo-realistic",
